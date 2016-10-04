@@ -182,7 +182,7 @@ NodeList 객체에서 item()메서드나 대괄호 표기법을 써서 원하는
 		console.log(div.dataset.myname);
 	}
 
-```js
+```
 ### 3.6  마크업 삽입 
 	
  *innerHTML 프로퍼티
@@ -192,6 +192,7 @@ NodeList 객체에서 item()메서드나 대괄호 표기법을 써서 원하는
 ```
  *outerHTML 프로퍼티 
  : html요소를 자식 노드와 함께 반환. 
+
 ```js
   var p = document.createElement('p');
   p.appendChild(document.createTextNode('this is a paragraph.'));
