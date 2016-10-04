@@ -67,25 +67,26 @@ var 연산자를 생략 하면 변수를 전역으로 정의할수 있음.
 데이터 타입을 알 수 있음. 
 함수를 제외한 객체 또는 Null : 'object'
 함수 : function
-
+```js
 	var message = 'some thing';
 	console.log(typeof message); //string
 	console.log(typeof(message));  // string
 	console.log(typeof 96); // number
-
+```
 
 ### 4.2 undefined 타입 
 var 를 써서 변수를 정의했지만 초기화 하지 않으면 undefined 할당
-
+```js
 	var message;
 	console.log(message == undefined); //  true
-
+```
 
 ### 4.3 Null 타입 
 빈객체를 가리키는 포인터 
+```js
 	var car = null;
 	console.log(typeof car); // object
-
+```
 
 	console.log( null == undefined ); // true
 연산자와 피연산자를 비교할 경우 암시적으로 형 변환을 함.
@@ -93,9 +94,10 @@ var 를 써서 변수를 정의했지만 초기화 하지 않으면 undefined �
 
 
 ### 4.4 불리언 타입
-
+```js
 	var msg = 'hello';
 	var msgBoolean = Boolean(msg);
+```
 모든 타입을 불리언 값으로 표현할수있음. 
 
 true로 변환되는 값. 
@@ -114,6 +116,7 @@ false, "" 빈문자열, 0, NaN, null, undefined
 
   isNaN()함수. 
 	: 해당 값이 숫자가 아닌값인지 검사.
-
+```js
 	console.log(isNaN(NaN));  // true
 	console.log(isNaN(10));  // false
+```
