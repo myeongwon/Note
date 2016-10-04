@@ -68,9 +68,10 @@ NodeList 객체에서 item()메서드나 대괄호 표기법을 써서 원하는
  ie9+
 
 
- ## 3. html5
 
- ### 3.1 클래스 관련 추가사항
+## 3. html5
+
+### 3.1 클래스 관련 추가사항
 
  - getElementsByClassName() 메서드 
 : 클래스 이름 문자열을 매개변수로 받으며 해당 클래스를 모두 가진 요소의 NodeList를 반환 함. 
@@ -115,7 +116,7 @@ NodeList 객체에서 item()메서드나 대괄호 표기법을 써서 원하는
 		doSomething(div.classList[i]);
 	}
 ```
- ### 3.2 포커스 관리 
+### 3.2 포커스 관리 
 : document.activeElement
 
 ```js
@@ -213,10 +214,10 @@ NodeList 객체에서 item()메서드나 대괄호 표기법을 써서 원하는
 
 
 
- ## 4. 전용 확장 
+## 4. 전용 확장 
 
- ### 4.1 문서모드
- ### 4.2 children 프로퍼티 
+### 4.1 문서모드
+### 4.2 children 프로퍼티 
  : ie9미만 버전과 타브라우져 사이에는 공백을 텍스트 노드로 취급하는 방법이 달라 만들어짐 
  요소의 자식 요소만 포함하는 htmlCollection임. 
 ```js
@@ -224,7 +225,7 @@ NodeList 객체에서 item()메서드나 대괄호 표기법을 써서 원하는
  	var firstChild = element.children[0];
 ```
 
- ### 4.3 contains()메서드 
+### 4.3 contains()메서드 
  : 문서트리를 순회하지 않고도 주어진 노드가 다른 노드의 자손인지 확인 가능함.
  매개변수로 받은 노드가 호출한 노드의 자손이면 true 아니면 false를 반환 
 ```js
