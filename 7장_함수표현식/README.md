@@ -353,7 +353,7 @@ console.log(object.getNameFunc()());  // 'the window' ]
 		return privateFunction();
 	};
 
-	reutrn object;
+	return object;
 }();
 ```
 
